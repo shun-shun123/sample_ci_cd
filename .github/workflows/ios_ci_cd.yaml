@@ -53,7 +53,7 @@ jobs:
           p12-base64: ${{ secrets.CERTIFICATES_P12 }}
           certificate-password: ${{ secrets.CERTIFICATE_PASSWORD }}
           mobileprovision-base64: ${{ secrets.PROVISIONING_PROFILE }}
-          code-signing-identity: iOS Distribution
+          code-signing-identity: iPhone Distribution
           team-id: ${{ secrets.TEAM_ID }}
           workspace-path: ios/Runner.xcworkspace
           export-method: ad-hoc
