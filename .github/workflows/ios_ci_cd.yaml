@@ -47,7 +47,7 @@ jobs:
 
       # 並列ビルドを設定
       - name: set build concurrent
-        -run: defaults write com.apple.dt.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileTasks 4
+        run: defaults write com.apple.dt.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileTasks 4
       
       # 頑張ってipaを出力します
       - name: XCode Build Archive
